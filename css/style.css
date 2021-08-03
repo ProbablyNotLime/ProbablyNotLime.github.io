@@ -1,0 +1,61 @@
+@font-face {
+    font-family: f1-regular;
+    src: url(../font/Formula1-Regular.ttf);
+}
+
+@font-face {
+    font-family: f1-bold;
+    src: url(../font/Formula1-Bold.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: f1-bold;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: f1-regular;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: f1-regular;
+}
+
+h6 {
+    color: white;
+    text-align: right;
+    font-family: f1-regular;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+th {
+    color: white;
+    text-align: center;
+    font-family: f1-regular;
+}
+
+td {
+    color: white;
+    text-align: center;
+    font-family: f1-regular;
+}
+
+video {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
